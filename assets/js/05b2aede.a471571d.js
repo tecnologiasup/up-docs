@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkup_docs=globalThis.webpackChunkup_docs||[]).push([[7629],{2398(o){o.exports=JSON.parse('{"metadata":{"permalink":"/up-docs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
