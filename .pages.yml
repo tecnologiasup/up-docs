@@ -1,0 +1,27 @@
+# .pages.yml
+media:
+  input: static/img
+  output: /img
+
+content:
+  - name: docs
+    label: Docs
+    type: collection
+    path: docs
+    filename: "{slug}.md"
+    fields:
+      - { name: title, label: Título, type: string, required: true }
+      - { name: sidebar_position, label: Posição no menu, type: number }
+      - { name: slug, label: Slug, type: string }
+      - { name: body, label: Conteúdo, type: rich-text }
+
+  - name: blog
+    label: Blog
+    type: collection
+    path: blog
+    filename: "{year}-{month}-{day}-{slug}.md"
+    fields:
+      - { name: title, label: Título, type: string, required: true }
+      - { name: authors, label: Autor(es), type: string }
+      - { name: tags, label: Tags, type: string, list: true }
+      - { name: body, label: Conteúdo, type: rich-text }
