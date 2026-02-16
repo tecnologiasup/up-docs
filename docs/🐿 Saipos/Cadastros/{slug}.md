@@ -164,5 +164,3 @@ Na aba "Disponibilidade e detalhes" você pode especificar nome diferente e desc
 Conclua o cadastro do produto clicando em "Salvar". O produto passará a aparecer no cardápio e na tela de lançamento de vendas.
 
 !\[\]([https://content.gitbook.com/content/uP4or4ERCEBbU1VKwxQC/blobs/EIGGMpQJ3qbxOM1l305e/27901341354900](https://content.gitbook.com/content/uP4or4ERCEBbU1VKwxQC/blobs/EIGGMpQJ3qbxOM1l305e/27901341354900))
-
-{% endstepper %}
