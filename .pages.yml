@@ -8,7 +8,7 @@ content:
     label: Docs
     type: collection
     path: docs
-    filename: "{slug}.md"
+    filename: "{slug}.mdx"
     fields:
       - { name: title, label: Título, type: string, required: true }
       - { name: sidebar_position, label: Posição no menu, type: number }
@@ -19,7 +19,7 @@ content:
     label: Blog
     type: collection
     path: blog
-    filename: "{year}-{month}-{day}-{slug}.md"
+    filename: "{year}-{month}-{day}-{slug}.mdx"
     fields:
       - { name: title, label: Título, type: string, required: true }
       - { name: authors, label: Autor(es), type: string }
